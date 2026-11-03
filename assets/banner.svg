@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs>
+    <radialGradient id="glow" cx="0.86" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#13896f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#13896f" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name { font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif; font-size: 96px; fill: #12151a; letter-spacing: -2px; }
+      .role { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 600; fill: #12151a; }
+      .accent { fill: #0d6b58; }
+      .kicker { font-family: Inter, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 3px; fill: #0d6b58; }
+      .line { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-size: 30px; fill: #0d6b58; }
+      .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 2.4s cubic-bezier(.2,.7,.1,1) .2s forwards; }
+      .fade { opacity: 0; animation: fade 1.2s cubic-bezier(.2,.7,.1,1) forwards; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; } .d4 { animation-delay: .85s; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) { .draw { stroke-dashoffset: 0; animation: none; } .fade { opacity: 1; animation: none; } }
+    </style>
+  </defs>
+  <rect width="1280" height="360" rx="20" fill="#f6f4ef"/>
+  <rect width="1280" height="360" rx="20" fill="url(#glow)"/>
+  <text x="72" y="92" class="kicker fade d1">CTO · ENGINEERING LEADER · ISRAEL</text>
+  <text x="68" y="190" class="name fade d2">Amir Kaplan</text>
+  <text x="72" y="240" class="role fade d3">AI-native platforms, end to end <tspan class="accent">—</tspan> and the teams that ship them.</text>
+  <path class="draw" d="M72 284 H 1208" stroke="#0d6b58" stroke-width="1.5" fill="none"/>
+  <text x="72" y="322" class="line fade d4">Architecture · Product · Quality · AI &amp; Agents</text>
+</svg>
