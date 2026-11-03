@@ -24,16 +24,16 @@ I've used a lot of stacks and know many more. In the age of AI the stack barely 
 
 <table>
   <tr>
-    <td width="25%"><b>Architecture</b><br><sub>Simple as it scales, cheap to change</sub></td>
-    <td width="25%"><b>Product</b><br><sub>What to build, what to cut, and why</sub></td>
-    <td width="25%"><b>Infrastructure</b><br><sub>Secure, observable, cost-aware</sub></td>
-    <td width="25%"><b>UX</b><br><sub>Clear without a manual, LTR or RTL</sub></td>
+    <td width="25%" valign="top"><b>Architecture</b><br><sub>Simple as it scales, cheap to change</sub></td>
+    <td width="25%" valign="top"><b>Product</b><br><sub>What to build, what to cut, and why</sub></td>
+    <td width="25%" valign="top"><b>Infrastructure</b><br><sub>Secure, observable, cost-aware</sub></td>
+    <td width="25%" valign="top"><b>UX</b><br><sub>Clear without a manual, LTR or RTL</sub></td>
   </tr>
   <tr>
-    <td><b>DevOps</b><br><sub>A small team that ships every day</sub></td>
-    <td><b>Performance</b><br><sub>Measured, not guessed</sub></td>
-    <td><b>Quality</b><br><sub>Gates that make fast also safe</sub></td>
-    <td><b>AI &amp; Agents</b><br><sub>Real work done, the best-practice way</sub></td>
+    <td valign="top"><b>DevOps</b><br><sub>A small team that ships every day</sub></td>
+    <td valign="top"><b>Performance</b><br><sub>Measured, not guessed</sub></td>
+    <td valign="top"><b>Quality</b><br><sub>Gates that make fast also safe</sub></td>
+    <td valign="top"><b>AI &amp; Agents</b><br><sub>Real work done, the best-practice way</sub></td>
   </tr>
 </table>
 
